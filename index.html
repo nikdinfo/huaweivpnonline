@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VPN для Huawei – рабочий ВПН на Хуавей без Google Play | от 175 ₽/мес</title>
+  <meta name="description" content="Рабочий VPN для Huawei — скачать на телефон без Google Play. Устанавливается через APK или AppGallery за 2 минуты. Работает на EMUI и HarmonyOS. Пробный доступ за 10 рублей.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#0a0a14">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="VPN для Huawei — работает без Google Play">
+  <meta property="og:description" content="Рабочий VPN для Huawei — скачать на телефон без Google Play. Устанавливается через APK или AppGallery за 2 минуты. Работает на EMUI и HarmonyOS. Пробный доступ за 10 рублей.">
+  <meta property="og:image" content="https://huavpn.vercel.app/og-huavpn.png">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600;700;800&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="%230a0a14"/><rect x="18" y="8" width="28" height="48" rx="7" fill="none" stroke="%23cf0a2c" stroke-width="4"/><path d="M32 43V20m0 0-9 9m9-9 9 9" stroke="%23ff6b35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>'>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Product",
+    "name":"HuaVPN",
+    "description":"Рабочий VPN для Huawei без Google Play. Установка через APK или AppGallery, совместимость с EMUI и HarmonyOS.",
+    "brand":{"@type":"Brand","name":"HuaVPN"},
+    "image":"https://huavpn.vercel.app/og-huavpn.png",
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"63000"},
+    "offers":[
+      {"@type":"Offer","name":"Старт — 1 месяц","price":"349","priceCurrency":"RUB","availability":"https://schema.org/InStock","url":"https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline"},
+      {"@type":"Offer","name":"Оптимальный — 3 месяца","price":"780","priceCurrency":"RUB","availability":"https://schema.org/InStock","url":"https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline"},
+      {"@type":"Offer","name":"Максимум — 1 год","price":"2100","priceCurrency":"RUB","availability":"https://schema.org/InStock","url":"https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline"}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Как скачать VPN на Huawei без Google Play?","acceptedAnswer":{"@type":"Answer","text":"Два способа: скачать APK-файл напрямую по кнопке на этой странице, или найти приложение в AppGallery. Оба варианта работают на актуальных Huawei."}},
+      {"@type":"Question","name":"Какой VPN работает на Huawei в 2026 году?","acceptedAnswer":{"@type":"Answer","text":"HuaVPN — проверен на EMUI 10–13 и HarmonyOS. Устанавливается без Google Play, стабильно работает в российских сетях."}},
+      {"@type":"Question","name":"Как установить VPN на телефон Huawei через APK?","acceptedAnswer":{"@type":"Answer","text":"Нажмите «Скачать APK» на этой странице. Разрешите установку из неизвестных источников в настройках Huawei. Установите, вставьте ключ — готово."}},
+      {"@type":"Question","name":"VPN работает на EMUI и HarmonyOS?","acceptedAnswer":{"@type":"Answer","text":"Да. Приложение совместимо с EMUI 10+ и HarmonyOS 2.0+. Если у вас другая версия — напишите в поддержку, уточним."}},
+      {"@type":"Question","name":"Сколько стоит VPN для Huawei?","acceptedAnswer":{"@type":"Answer","text":"От 175 ₽/мес при годовой подписке 2 100 ₽, 260 ₽/мес квартальный 780 ₽, 349 ₽/мес базовый. Пробный доступ — 10 рублей на 3 дня."}},
+      {"@type":"Question","name":"На скольких устройствах Huawei работает один ключ?","acceptedAnswer":{"@type":"Answer","text":"На всех ваших устройствах одновременно: смартфон, планшет Huawei, плюс Windows и Mac. Дополнительных настроек не нужно."}},
+      {"@type":"Question","name":"Что входит в пробный доступ за 10 рублей?","acceptedAnswer":{"@type":"Answer","text":"Полноценный ключ на 3 дня без ограничений. Реальный тест на вашем устройстве Huawei в ваших условиях."}},
+      {"@type":"Question","name":"VPN не подключается на Huawei — что делать?","acceptedAnswer":{"@type":"Answer","text":"Отключите и включите снова, перезапустите приложение, переключите Wi-Fi на мобильный интернет, убедитесь, что APK установлен с нужными разрешениями. Если не помогло — напишите в Telegram-поддержку."}}
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#0a0a14;--card:#12121f;--card2:#181827;--red:#cf0a2c;--orange:#ff6b35;--peach:#ff9a6c;--yellow:#ffcc00;--text:#f0f0ff;--muted:#7c7c99;--green:#34d399;--line:rgba(240,240,255,.12);
+      --head:"Space Grotesk",system-ui,sans-serif;--body:"Inter",system-ui,sans-serif;--mono:"JetBrains Mono",monospace;--shadow:0 0 28px rgba(207,10,44,.45),0 0 56px rgba(255,107,53,.2);--r:28px
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 0,rgba(207,10,44,.25),transparent 32rem),radial-gradient(circle at 85% 8%,rgba(255,107,53,.18),transparent 34rem),var(--bg);color:var(--text);font-family:var(--body);overflow-x:hidden}
+    body.menu-open{overflow:hidden}a{text-decoration:none;color:inherit}button,input{font:inherit}p{margin:0;color:var(--muted);line-height:1.7}.container{width:min(1180px,calc(100% - 32px));margin:auto}.section{padding:78px 0;position:relative}
+    h1,h2,h3{font-family:var(--head);margin:0;line-height:.98;letter-spacing:-.045em}h1{font-size:clamp(44px,11vw,88px)}h2{font-size:clamp(34px,8vw,64px)}h3{font-size:clamp(22px,5vw,30px)}.lead{font-size:clamp(17px,2vw,21px);color:#c8c8dc;max-width:780px}.mono{font-family:var(--mono)}.glow{text-shadow:0 0 20px rgba(207,10,44,.8),0 0 40px rgba(255,107,53,.4)}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid rgba(255,107,53,.3);background:rgba(255,107,53,.08);color:#ffd3c2;border-radius:99px;padding:7px 12px;font-size:13px;font-weight:800}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:14px 20px;border-radius:99px;border:0;background:linear-gradient(135deg,var(--red),var(--orange));color:white;font-weight:900;cursor:pointer;box-shadow:var(--shadow);transition:.25s cubic-bezier(.2,1.4,.3,1);white-space:nowrap}.btn:hover{transform:translateY(-3px) scale(1.015)}.btn:active{transform:scale(.98)}.btn.ghost{background:rgba(255,255,255,.05);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14)}.btn.small{min-height:42px;padding:10px 15px;font-size:14px}
+    .nav{position:fixed;inset:0 0 auto;z-index:50;background:rgba(10,10,20,.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.08)}.nav:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--red);box-shadow:0 0 24px var(--red)}.nav-in{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.logo{display:flex;align-items:center;gap:10px;font-family:var(--head);font-weight:800;letter-spacing:.02em}.logo i{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,#1b1b2b,#0e0e18);display:grid;place-items:center;border:1px solid rgba(255,255,255,.12);box-shadow:0 0 22px rgba(207,10,44,.3)}.logo b span{color:var(--orange)}
+    .menu{display:none;align-items:center;gap:22px;font-size:14px;font-weight:800;color:#d9d9e8}.menu a:hover{color:white}.burger{width:44px;height:44px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04);border-radius:14px;color:white;display:grid;place-items:center}.burger span,.burger:before,.burger:after{content:"";width:20px;height:2px;background:#fff;display:block;border-radius:2px;transition:.25s}.burger:before{transform:translateY(-6px)}.burger:after{transform:translateY(6px)}.menu-open .burger span{opacity:0}.menu-open .burger:before{transform:translateY(2px) rotate(45deg)}.menu-open .burger:after{transform:translateY(-2px) rotate(-45deg)}
+    .progress{height:3px;width:0;background:linear-gradient(90deg,var(--orange),var(--red));box-shadow:0 0 16px rgba(255,107,53,.7)}
+    .mobile-menu{position:fixed;inset:72px 0 0;background:rgba(10,10,20,.98);z-index:45;padding:24px 16px;display:none}.menu-open .mobile-menu{display:block}.mobile-menu a{display:block;padding:16px;border-bottom:1px solid rgba(255,255,255,.08);font-weight:800}
+    .hero{padding:124px 0 78px;min-height:100vh;display:grid;align-items:center}.hero-grid{display:grid;gap:34px}.hero-text{display:grid;gap:22px}.cta-row{display:flex;flex-wrap:wrap;gap:12px}.badges{display:flex;flex-wrap:wrap;gap:10px}.badge{padding:10px 13px;border-radius:99px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);font-size:14px;color:#dbdbea;font-weight:800}.device-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;color:#74748f;font-weight:800}.device-row img{width:22px;height:22px;opacity:.58;filter:grayscale(1)}
+    .hero-visual{position:relative;min-height:410px;border:1px solid rgba(255,255,255,.1);border-radius:36px;background:linear-gradient(145deg,rgba(18,18,31,.92),rgba(10,10,20,.84));box-shadow:0 40px 120px rgba(0,0,0,.36);overflow:hidden}.hero-visual:before{content:"";position:absolute;inset:-40%;background:radial-gradient(circle,rgba(255,204,0,.1) 0 1px,transparent 2px);background-size:34px 34px;animation:float 14s linear infinite}.screen{position:absolute;left:7%;top:22%;width:42%;height:45%;border-radius:26px;border:1px solid rgba(255,255,255,.14);background:linear-gradient(135deg,#21212d,#10101d);display:grid;place-items:center;text-align:center;box-shadow:inset 0 0 40px rgba(207,10,44,.18)}.screen strong{font-family:var(--head);font-size:clamp(22px,5vw,34px);color:#fff;text-shadow:0 0 16px rgba(207,10,44,.8)}.open-net{position:absolute;right:7%;top:20%;width:42%;height:48%;border-radius:28px;background:radial-gradient(circle at 50% 30%,rgba(52,211,153,.35),transparent 45%),linear-gradient(135deg,rgba(255,107,53,.16),rgba(207,10,44,.1));border:1px solid rgba(52,211,153,.24);display:grid;place-items:center;text-align:center}.open-net b{color:#fff;font-family:var(--head);font-size:26px}
+    .particles span{position:absolute;width:5px;height:5px;border-radius:50%;background:var(--orange);opacity:.42;animation:rise var(--t) linear infinite;left:var(--x);bottom:-10px;box-shadow:0 0 16px var(--orange)}
+    @keyframes rise{to{transform:translateY(-520px);opacity:0}}@keyframes float{to{transform:translate3d(34px,34px,0)}}40%{transform:translateX(60px) translateY(-80px) rotate(-5deg)}60%{transform:translateX(140px) translateY(-60px) rotate(5deg)}100%{transform:translateX(240px) translateY(0) rotate(0)}}}40%{opacity:1}100%{opacity:0;transform:translate(var(--bx),var(--by)) rotate(180deg)}}
+    .stats{border-block:1px solid rgba(255,255,255,.08);background:rgba(18,18,31,.72)}.stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.stat{padding:22px;border-radius:22px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}.stat b{font-family:var(--mono);font-size:clamp(28px,7vw,46px);color:var(--orange);display:block}.stat span{color:#bbbcd0;font-weight:700}
+    .head{display:grid;gap:16px;margin-bottom:34px}.cards{display:grid;gap:16px}.card{background:linear-gradient(145deg,rgba(18,18,31,.96),rgba(18,18,31,.64));border:1px solid rgba(255,255,255,.1);border-radius:var(--r);padding:24px;box-shadow:0 22px 70px rgba(0,0,0,.22);transition:.25s}.card:hover{transform:translateY(-6px);box-shadow:0 0 28px rgba(207,10,44,.18),0 28px 70px rgba(0,0,0,.28)}.icon{font-size:34px;margin-bottom:12px}.card h3{margin-bottom:10px}
+    .ba{position:relative;height:420px;border-radius:32px;overflow:hidden;border:1px solid rgba(255,255,255,.12);background:#111;touch-action:none}.ba-side{position:absolute;inset:0;padding:28px;display:flex;flex-direction:column;justify-content:space-between}.before{background:linear-gradient(135deg,#24242d,#0d0d13)}.after{background:radial-gradient(circle at 70% 30%,rgba(52,211,153,.35),transparent 35%),linear-gradient(135deg,#341010,#14141e);clip-path:inset(0 0 0 50%)}.apps{display:flex;gap:12px;flex-wrap:wrap}.app{width:62px;height:62px;border-radius:20px;display:grid;place-items:center;background:rgba(255,255,255,.08);font-size:26px;border:1px solid rgba(255,255,255,.12);filter:grayscale(1);opacity:.6}.after .app{filter:none;opacity:1;background:rgba(255,255,255,.12)}.ba h3{font-size:clamp(26px,6vw,44px)}.handle{position:absolute;top:0;bottom:0;left:50%;width:4px;background:#fff;box-shadow:0 0 22px rgba(255,255,255,.8);cursor:ew-resize}.handle:after{content:"↔";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,var(--red),var(--orange));display:grid;place-items:center;font-weight:900;box-shadow:var(--shadow)}
+    .speed-grid{display:grid;gap:16px}.speed-card{padding:22px;border-radius:26px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1)}.speed-title{display:flex;justify-content:space-between;gap:12px;margin-bottom:16px;font-weight:900}.bar{height:18px;border-radius:99px;background:#242434;overflow:hidden;margin:8px 0 14px}.bar i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--red),var(--orange));width:18%;transition:1s ease}.bar.fast i{width:0;background:linear-gradient(90deg,var(--green),var(--orange))}.metrics{display:grid;gap:8px}.metrics b{font-family:var(--mono);color:#fff}.speed-actions{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+    .quiz{max-width:850px}.quiz-bar{height:8px;background:#242436;border-radius:99px;overflow:hidden;margin-bottom:18px}.quiz-bar i{display:block;height:100%;width:33%;background:linear-gradient(90deg,var(--orange),var(--red));transition:.3s}.quiz-options{display:grid;gap:12px;margin-top:18px}.quiz-options button{padding:16px;border-radius:20px;text-align:left;background:rgba(255,255,255,.05);color:#fff;border:1px solid rgba(255,255,255,.12);font-weight:800;cursor:pointer}.quiz-options button:hover{border-color:rgba(255,107,53,.7);transform:translateY(-2px)}.quiz-result{display:none}.quiz-result.show{display:block}
+    .map{position:relative;min-height:430px;border-radius:32px;background:radial-gradient(circle at 50% 50%,rgba(255,107,53,.18),transparent 28%),linear-gradient(135deg,#10101c,#151524);border:1px solid rgba(255,255,255,.1);overflow:hidden}.map:before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:44px 44px}.dot{position:absolute;left:var(--x);top:var(--y);width:22px;height:22px;border-radius:50%;border:0;background:var(--orange);box-shadow:0 0 0 10px rgba(255,107,53,.12),0 0 28px rgba(255,107,53,.9);cursor:pointer;animation:pulse 1.7s infinite}.dot:after{content:attr(data-flag);position:absolute;left:26px;top:-2px;font-size:22px}.tooltip{position:absolute;z-index:5;transform:translate(-50%,-110%);width:230px;padding:14px;border-radius:18px;background:rgba(10,10,20,.96);border:1px solid rgba(255,107,53,.35);box-shadow:var(--shadow);display:none}.tooltip.show{display:block}.tooltip strong{display:block;margin-bottom:6px}.tooltip p{font-size:13px;margin-bottom:10px}@keyframes pulse{50%{transform:scale(1.18)}}
+    .timeline{display:grid;gap:16px;counter-reset:step}.step{position:relative}.step:before{counter-increment:step;content:counter(step);width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--red),var(--orange));font-family:var(--mono);font-weight:900;margin-bottom:14px;box-shadow:var(--shadow)}.step:after{content:"↓";position:absolute;right:20px;top:18px;color:var(--orange);font-size:28px;animation:bounce 1.4s infinite}.step:last-child:after{display:none}@keyframes bounce{50%{transform:translateY(6px)}}
+    .cta-band{background:linear-gradient(135deg,#2a0808,#1a0c04);border-block:1px solid rgba(255,107,53,.22);overflow:hidden}.cta-box{display:grid;gap:18px;text-align:left}.price-tools{display:grid;gap:18px;margin-bottom:20px}.toggle{display:flex;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:99px;padding:5px;width:max-content}.toggle button{border:0;border-radius:99px;padding:10px 14px;background:transparent;color:#bfc0d2;font-weight:900;cursor:pointer}.toggle button.active{background:linear-gradient(135deg,var(--red),var(--orange));color:white}.calc{display:grid;gap:12px}.calc input{accent-color:var(--orange);width:100%}.calc-row{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid rgba(255,255,255,.08);padding:9px 0}.save{font-family:var(--mono);color:var(--orange);font-size:28px}
+    .pricing{display:grid;gap:16px}.plan{position:relative}.plan.pop{border-color:rgba(207,10,44,.65);box-shadow:var(--shadow)}.plan.best{background:linear-gradient(var(--card),var(--card)) padding-box,linear-gradient(135deg,var(--red),var(--orange)) border-box;border:1px solid transparent}.tag{position:absolute;right:18px;top:18px;padding:6px 10px;border-radius:99px;background:rgba(255,204,0,.14);color:#ffe27a;font-size:12px;font-weight:900}.price{font-family:var(--mono);font-size:38px;color:#fff;margin:14px 0}.price small{font-size:14px;color:var(--muted)}.old{text-decoration:line-through;color:#75758d;font-size:18px;margin-left:6px}.plan ul{margin:0 0 20px;padding:0;list-style:none;color:#c9c9dc}.plan li{margin:9px 0}.plan li:before{content:"✓";color:var(--green);font-weight:900;margin-right:8px}
+    .platforms,.reviews,.guarantee{display:grid;gap:16px}.platform-card{display:flex;flex-direction:column;gap:12px}.reviews{grid-auto-flow:column;grid-auto-columns:minmax(270px,82%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}.review{scroll-snap-align:start}.avatar{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--red),var(--orange));font-weight:900;margin-bottom:12px}.stars{color:#ffcc00;margin:8px 0}.faq{display:grid;gap:10px}.acc{border:1px solid rgba(255,255,255,.1);border-radius:22px;background:rgba(255,255,255,.04);overflow:hidden}.acc button{width:100%;display:flex;justify-content:space-between;gap:16px;padding:18px 20px;background:none;border:0;color:white;text-align:left;font-weight:900;cursor:pointer}.acc div{max-height:0;overflow:hidden;transition:max-height .3s ease}.acc.open div{max-height:260px}.acc p{padding:0 20px 18px}
+    .seo{font-size:14px}.seo h2,.seo h3{margin:22px 0 10px}.seo h2{font-size:32px}.seo h3{font-size:22px}.footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08);background:#080811}.footer-in{display:grid;gap:18px}.float-cta{position:fixed;left:16px;right:16px;bottom:16px;z-index:60;transform:translateY(120px);opacity:0;transition:.3s}.float-cta.show{transform:none;opacity:1}.float-cta .btn{width:100%}
+    #confetti,#cursor{position:fixed;inset:0;pointer-events:none;z-index:100}#cursor{z-index:99}
+    @media(min-width:760px){.hero-grid,.speed-grid,.price-tools{grid-template-columns:1fr 1fr;align-items:center}.stats-grid{grid-template-columns:repeat(4,1fr)}.cards,.pricing,.platforms,.guarantee{grid-template-columns:repeat(3,1fr)}.platforms{grid-template-columns:repeat(4,1fr)}.timeline{grid-template-columns:repeat(4,1fr)}.step:after{content:"→";right:-10px}.reviews{grid-auto-flow:initial;grid-template-columns:repeat(3,1fr);overflow:visible}.footer-in{grid-template-columns:1fr auto auto;align-items:center}.float-cta{left:auto;right:24px;width:auto}.float-cta .btn{width:auto}}
+    @media(min-width:980px){.menu{display:flex}.burger{display:none}.hero-grid{grid-template-columns:1fr .82fr}.section{padding:96px 0}.cards{grid-template-columns:repeat(3,1fr)}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+  </style>
+</head>
+
+<body>
+  <canvas id="cursor"></canvas>
+  <canvas id="confetti"></canvas>
+
+  <header class="nav">
+    <div class="container nav-in">
+      <a class="logo" href="#hero" aria-label="HuaVPN">
+        <i>📱</i><b>HUA<span>VPN</span></b>
+      </a>
+      <nav class="menu">
+        <a href="#advantages">Почему мы</a>
+        <a href="#speed">Скорость</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#how">Установка</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn small" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">📲 Попробовать за 10 ₽</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню"><span></span></button>
+    </div>
+    <div class="progress" id="progress"></div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#advantages">Почему мы</a>
+    <a href="#speed">Скорость</a>
+    <a href="#pricing">Тарифы</a>
+    <a href="#how">Установка</a>
+    <a href="#faq">FAQ</a>
+    <a class="btn" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">📲 Попробовать за 10 ₽</a>
+  </div>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="eyebrow">🔥 VPN который работает на Huawei</span>
+          <h1>VPN для Huawei — <span class="glow">рабочий, без Google Play</span></h1>
+          <p class="lead">Скачайте VPN на телефон Huawei прямо сейчас — через APK или AppGallery. Вставьте ключ в приложение, подключитесь за 2 минуты. Работает на EMUI и HarmonyOS.</p>
+          <div class="cta-row">
+            <a class="btn" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">📲 Попробовать за 10 рублей</a>
+            <a class="btn ghost" href="#pricing">Смотреть тарифы</a>
+          </div>
+          <div class="badges">
+            <span class="badge">✅ Работает без Google Play</span>
+            <span class="badge">✅ Установка через APK или AppGallery</span>
+            <span class="badge">✅ Один ключ — все ваши устройства</span>
+          </div>
+          <div class="device-row">
+            <span>Huawei</span><img src="https://cdn.simpleicons.org/huawei/7c7c99" alt="">
+            <span>Android</span><img src="https://cdn.simpleicons.org/android/7c7c99" alt="">
+            <span>Windows</span><img src="https://cdn.simpleicons.org/windows/7c7c99" alt="">
+            <span>macOS</span><img src="https://cdn.simpleicons.org/apple/7c7c99" alt="">
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Маскот HuaVPN">
+          <div class="particles" aria-hidden="true">
+            <span style="--x:9%;--t:8s"></span><span style="--x:18%;--t:11s"></span><span style="--x:31%;--t:9s"></span><span style="--x:44%;--t:13s"></span><span style="--x:57%;--t:10s"></span><span style="--x:72%;--t:8s"></span><span style="--x:86%;--t:12s"></span>
+          </div>
+          <div class="screen"><strong>НЕТ<br>GOOGLE PLAY</strong></div>
+          <div class="open-net"><b>Открытый<br>интернет</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats section" aria-label="Показатели HuaVPN">
+      <div class="container stats-grid">
+        <div class="stat"><b><span data-count="63000">0</span>+</b><span>Активных пользователей</span></div>
+        <div class="stat"><b><span data-count="70">0</span>+</b><span>Серверов по миру</span></div>
+        <div class="stat"><b><span data-count="340">0</span></b><span>Средняя скорость, Мбит/с</span></div>
+        <div class="stat"><b><span data-count="4.9" data-decimals="1">0</span>/5</b><span>Рейтинг пользователей</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="compare">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow">🔀 Before / After</span>
+          <h2>Что меняется после установки VPN на Huawei</h2>
+        </div>
+        <div class="ba" id="ba">
+          <div class="ba-side before">
+            <div class="apps"><span class="app">▶️</span><span class="app">✈️</span><span class="app">📷</span></div>
+            <h3>Нет Google Play.<br>Нет нормального VPN.<br>Нет доступа.</h3>
+          </div>
+          <div class="ba-side after" id="after">
+            <div class="apps"><span class="app">▶️</span><span class="app">✈️</span><span class="app">📷</span></div>
+            <h3>Всё установлено.<br>Всё открыто.<br>Всё работает.</h3>
+          </div>
+          <div class="handle" id="handle" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"></div>
+        </div>
+        <p style="margin-top:18px">На Huawei без Google Play многие VPN просто не установить. HuaVPN распространяется через APK и AppGallery — устанавливается без ограничений, работает стабильно.</p>
+      </div>
+    </section>
+
+    <section class="section" id="advantages">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow">🧩 Решение боли Huawei</span>
+          <h2>Почему HuaVPN работает на Huawei</h2>
+          <p class="lead">VPN для Huawei — задача непростая: без Google Play большинство приложений недоступно. HuaVPN решает это напрямую: устанавливается через APK-файл или AppGallery, работает на EMUI 10+ и HarmonyOS. Интерфейс на русском — всё понятно с первого экрана.</p>
+        </div>
+        <div class="cards">
+          <article class="card"><div class="icon">📦</div><h3>Без Google Play</h3><p>Скачайте APK напрямую или найдите в AppGallery. Никаких обходных путей.</p></article>
+          <article class="card"><div class="icon">⚡</div><h3>Настоящая скорость</h3><p>Шифрование не режет скорость. YouTube, Telegram, стриминг — без буферизации.</p></article>
+          <article class="card"><div class="icon">🛡️</div><h3>Надёжная защита</h3><p>Трафик шифруется, логи не хранятся. Работает и в Wi-Fi, и в мобильной сети.</p></article>
+          <article class="card"><div class="icon">📱</div><h3>EMUI и HarmonyOS</h3><p>Проверено на актуальных версиях прошивок Huawei. Не конфликтует с системой.</p></article>
+          <article class="card"><div class="icon">🔑</div><h3>Активация за 2 минуты</h3><p>Получил ключ — вставил в приложение — нажал «Подключить». Готово.</p></article>
+          <article class="card"><div class="icon">💬</div><h3>Поддержка по-русски</h3><p>Telegram-поддержка — живые люди, быстрые ответы на вопросы по Huawei.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="speed">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow">⚡ Speed test</span>
+          <h2>Посмотрите, какая скорость будет на вашем Huawei</h2>
+          <p class="lead">Нажмите — и увидите реальную разницу до и после подключения.</p>
+        </div>
+        <div class="speed-grid">
+          <div class="speed-card">
+            <div class="speed-title"><span>БЕЗ VPN</span><b class="mono"><span>18</span> Мбит/с</b></div>
+            <div class="bar"><i></i></div>
+            <div class="metrics"><span>Ping: <b>180 мс</b></span><span>Потери пакетов: <b>12%</b></span></div>
+          </div>
+          <div class="speed-card">
+            <div class="speed-title"><span>С HuaVPN</span><b class="mono"><span id="fastSpeed">0</span> Мбит/с</b></div>
+            <div class="bar fast"><i id="fastBar"></i></div>
+            <div class="metrics"><span>Ping: <b><span id="fastPing">0</span> мс</b></span><span>Потери: <b><span id="lossAfter">0</span>%</b></span></div>
+          </div>
+        </div>
+        <div class="speed-actions">
+          <button class="btn" id="speedBtn">🚀 Запустить тест</button>
+          <a href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Хотите так же? →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="quiz">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow">🎯 Квиз</span>
+          <h2>Найдите подходящий тариф за 1 минуту</h2>
+        </div>
+        <div class="quiz card">
+          <div class="quiz-bar"><i id="quizBar"></i></div>
+          <div id="quizCard">
+            <h3 id="quizQ">Какое устройство Huawei у вас?</h3>
+            <div class="quiz-options" id="quizOptions">
+              <button>📱 Смартфон Huawei</button>
+              <button>📟 Планшет Huawei</button>
+              <button>📱💻 Смартфон + ноутбук Huawei</button>
+            </div>
+          </div>
+          <div class="quiz-result" id="quizResult">
+            <h3>📱 Ваш тариф: МАКСИМУМ — год</h3>
+            <p>Экономия 2 088 ₽ · Все устройства Huawei · Ключ сразу</p>
+            <br>
+            <a class="btn" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Получить за 2 100 ₽/год →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servers">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow">🌍 Карта серверов</span>
+          <h2>70+ серверов — выбирайте ближайший</h2>
+          <p class="lead">Европа, Азия, Америка. Автовыбор найдёт оптимальный маршрут для вашего Huawei.</p>
+        </div>
+        <div class="map" id="map">
+          <button class="dot" style="--x:49%;--y:34%" data-flag="🇩🇪" data-country="🇩🇪 Германия" data-ping="~18 мс" data-load="низкая" aria-label="Германия"></button>
+          <button class="dot" style="--x:53%;--y:31%" data-flag="🇳🇱" data-country="🇳🇱 Нидерланды" data-ping="~22 мс" data-load="низкая" aria-label="Нидерланды"></button>
+          <button class="dot" style="--x:72%;--y:45%" data-flag="🇸🇬" data-country="🇸🇬 Сингапур" data-ping="~38 мс" data-load="средняя" aria-label="Сингапур"></button>
+          <button class="dot" style="--x:24%;--y:42%" data-flag="🇺🇸" data-country="🇺🇸 США" data-ping="~72 мс" data-load="средняя" aria-label="США"></button>
+          <div class="tooltip" id="tooltip"></div>
+        </div>
+        <br>
+        <a class="btn" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">📲 Подключиться к ближайшему серверу</a>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow">📲 Установка</span>
+          <h2>Как установить VPN на Huawei: 4 шага</h2>
+          <p class="lead">Одна схема — для смартфонов и планшетов Huawei. Никаких технических знаний не нужно.</p>
+        </div>
+        <div class="timeline">
+          <article class="card step"><h3>Получите ключ</h3><p>Нажмите кнопку, выберите тариф, оплатите. Ключ придёт сразу после оплаты.</p></article>
+          <article class="card step"><h3>Скачайте приложение</h3><p>Установите через APK-файл или найдите в AppGallery. Ссылки — в блоке «Установка».</p></article>
+          <article class="card step"><h3>Вставьте ключ</h3><p>Откройте приложение, найдите поле для ключа, вставьте.</p></article>
+          <article class="card step"><h3>Подключитесь 📲</h3><p>Нажмите «Подключить». VPN запущен. Всё открыто.</p></article>
+        </div>
+        <br>
+        <a class="btn" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">📲 Получить ключ</a>
+        <div class="faq" style="margin-top:22px">
+          <div class="acc"><button>Что делать, если не подключается <span>+</span></button><div><p>Отключите VPN на 5 секунд — включите снова. Перезапустите приложение. Переключитесь между Wi-Fi и мобильным интернетом. Проверьте, что APK установлен полностью и разрешения системы выданы. Напишите в Telegram-поддержку — разберёмся по шагам.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band" id="trial">
+      <div class="container cta-box">
+        <span class="eyebrow">💫 Пробный доступ</span>
+        <h2>Первая проверка на вашем Huawei — всего 10 рублей</h2>
+        <p class="lead">Не хотите платить, не убедившись — правильно. За 10 рублей вы получаете пробный ключ на 3 дня без ограничений. Устанавливаете на Huawei, проверяете реальную скорость на своём устройстве и своей сети. Работает — остаётесь. Нет — потеряли только десятку.</p>
+        <div class="badges"><span class="badge">✅ 3 дня полного доступа</span><span class="badge">✅ Ключ моментально</span><span class="badge">✅ Работает без Google Play</span></div>
+        <a class="btn" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">📲 Попробовать на Huawei за 10 ₽</a>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow">🧮 Тарифы</span>
+          <h2>Выбери свой тариф</h2>
+          <p class="lead">Один ключ — все ваши устройства Huawei и не только. Цены без сюрпризов.</p>
+        </div>
+
+        <div class="price-tools">
+          <div>
+            <div class="toggle">
+              <button data-billing="monthly">Помесячно</button>
+              <button class="active" data-billing="yearly">Ежегодно −50%</button>
+            </div>
+          </div>
+          <div class="card calc">
+            <label>Слайдер: <b class="mono"><span id="months">12</span> месяцев</b></label>
+            <input id="monthsRange" type="range" min="1" max="12" value="12">
+            <div class="calc-row"><span>При месячной подписке:</span><b id="monthlyCost">4 188 ₽</b></div>
+            <div class="calc-row"><span>При годовой подписке:</span><b id="yearCost">2 100 ₽</b></div>
+            <div>Ваша экономия: <b class="save" id="saving">🔥 2 088 ₽</b></div>
+            <a class="btn" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Выбрать этот тариф</a>
+          </div>
+        </div>
+
+        <div class="pricing">
+          <article class="card plan">
+            <div class="icon">📱</div><h3>Старт — 1 месяц</h3>
+            <div class="price">349 ₽<small>/мес</small></div>
+            <ul><li>Все платформы</li><li>Безлимит</li><li>Поддержка</li></ul>
+            <a class="btn confetti-trigger" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Начать</a>
+          </article>
+          <article class="card plan pop">
+            <span class="tag">⭐ Популярный</span>
+            <div class="icon">📲</div><h3>Оптимальный — 3 месяца</h3>
+            <div class="price">260 ₽<small>/мес</small><span class="old">349 ₽</span></div>
+            <p>Итого: 780 ₽ за квартал · Скидка −25%</p>
+            <ul><li>Все платформы</li><li>Безлимит</li><li>Поддержка</li></ul>
+            <a class="btn confetti-trigger" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Выбрать</a>
+          </article>
+          <article class="card plan best">
+            <div class="icon">🚀</div><h3>Максимум — 1 год</h3>
+            <div class="price">175 ₽<small>/мес</small><span class="old">349 ₽</span></div>
+            <p>Итого: 2 100 ₽ за год · Скидка −50%</p>
+            <ul><li>Все устройства Huawei</li><li>Ключ сразу</li><li>Максимальная экономия</li></ul>
+            <a class="btn confetti-trigger" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Взять на год</a>
+          </article>
+        </div>
+        <p style="margin-top:18px">Хотите сначала проверить на своём Huawei? <a href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Пробный за 10 ₽ →</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="platforms">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow">📦 Установка</span>
+          <h2>Установить VPN на Huawei</h2>
+          <p class="lead">Два способа установки для Huawei — и поддержка ПК на тот же ключ.</p>
+        </div>
+        <div class="platforms">
+          <article class="card platform-card"><h3>Huawei APK</h3><p>Скачайте APK-файл напрямую — работает на любом Huawei.</p><a class="btn small" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Скачать APK</a></article>
+          <article class="card platform-card"><h3>Huawei AppGallery</h3><p>Найдите приложение в AppGallery — установка в один клик.</p><a class="btn small" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Открыть AppGallery</a></article>
+          <article class="card platform-card"><h3>Windows ПК</h3><p>VPN на компьютер — Windows 10/11, лёгкий клиент.</p><a class="btn small" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Скачать для Windows</a></article>
+          <article class="card platform-card"><h3>Mac</h3><p>VPN для Mac — macOS 11+, тот же ключ.</p><a class="btn small" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">Скачать для Mac</a></article>
+        </div>
+        <p style="margin-top:18px">Один ключ активируется на всех устройствах сразу — телефон Huawei, планшет, ноутбук на Windows или Mac.</p>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="head"><span class="eyebrow">⭐ Отзывы</span><h2>Что говорят владельцы Huawei</h2></div>
+        <div class="reviews">
+          <article class="card review"><div class="avatar">МТ</div><h3>Михаил Т.</h3><div class="stars">★★★★★ · Huawei P50</div><p>Долго искал рабочий VPN для Huawei без Google Play. Скачал APK, вставил ключ — заработало с первого раза. YouTube идёт без буферизации.</p></article>
+          <article class="card review"><div class="avatar">ОС</div><h3>Оля С.</h3><div class="stars">★★★★★ · Huawei Nova 11</div><p>Наконец нашла впн для хуавей который реально работает. Установила через AppGallery, ключ пришёл мгновенно. Всё на русском — разобралась сама.</p></article>
+          <article class="card review"><div class="avatar">ДВ</div><h3>Денис В.</h3><div class="stars">★★★★★ · Huawei MatePad</div><p>Поставил на планшет Huawei через APK — никаких проблем с установкой. Скорость не падает, стриминг без тормозов.</p></article>
+          <article class="card review"><div class="avatar">НК</div><h3>Настя К.</h3><div class="stars">★★★★☆ · Huawei + Windows</div><p>Один ключ работает на телефоне и ноутбуке одновременно. Удобно. Поддержка отвечает быстро.</p></article>
+          <article class="card review"><div class="avatar">ГЛ</div><h3>Гриша Л.</h3><div class="stars">★★★★★ · Huawei P60 Pro</div><p>Взял пробный за 10 рублей, убедился что впн для хуавей работает нормально — и взял на год. Жалею, что не нашёл раньше.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="guarantee">
+      <div class="container">
+        <div class="head">
+          <span class="eyebrow">🔒 Гарантии</span>
+          <h2>Попробуйте без риска — гарантия возврата</h2>
+          <p class="lead">Если VPN не заработает на вашем Huawei или не подойдёт по другой причине — вернём деньги в течение 7 дней после оплаты. Напишите в поддержку, объясните ситуацию. Без бюрократии.</p>
+        </div>
+        <div class="guarantee">
+          <article class="card"><h3>🔒 Безопасная оплата</h3><p>Платёж проходит быстро и защищённо.</p></article>
+          <article class="card"><h3>↩️ Возврат 7 дней</h3><p>Не заработало — вернём деньги без бюрократии.</p></article>
+          <article class="card"><h3>💬 Поддержка 24/7</h3><p>Telegram-поддержка помогает с установкой на Huawei.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="head"><span class="eyebrow">❓ FAQ</span><h2>Вопросы о VPN для Huawei</h2></div>
+        <div class="faq">
+          <div class="acc"><button>Как скачать VPN на Huawei без Google Play? <span>+</span></button><div><p>Два способа: скачать APK-файл напрямую по кнопке на этой странице, или найти приложение в AppGallery. Оба варианта работают на актуальных Huawei.</p></div></div>
+          <div class="acc"><button>Какой VPN работает на Huawei в 2026 году? <span>+</span></button><div><p>HuaVPN — проверен на EMUI 10–13 и HarmonyOS. Устанавливается без Google Play, стабильно работает в российских сетях.</p></div></div>
+          <div class="acc"><button>Как установить VPN на телефон Huawei через APK? <span>+</span></button><div><p>Нажмите «Скачать APK» на этой странице. Разрешите установку из неизвестных источников в настройках Huawei. Установите, вставьте ключ — готово.</p></div></div>
+          <div class="acc"><button>VPN работает на EMUI и HarmonyOS? <span>+</span></button><div><p>Да. Приложение совместимо с EMUI 10+ и HarmonyOS 2.0+. Если у вас другая версия — напишите в поддержку, уточним.</p></div></div>
+          <div class="acc"><button>Сколько стоит VPN для Huawei? <span>+</span></button><div><p>От 175 ₽/мес при годовой подписке 2 100 ₽, 260 ₽/мес квартальный 780 ₽, 349 ₽/мес базовый. Пробный доступ — 10 рублей на 3 дня.</p></div></div>
+          <div class="acc"><button>На скольких устройствах Huawei работает один ключ? <span>+</span></button><div><p>На всех ваших устройствах одновременно: смартфон, планшет Huawei, плюс Windows и Mac. Дополнительных настроек не нужно.</p></div></div>
+          <div class="acc"><button>Что входит в пробный доступ за 10 рублей? <span>+</span></button><div><p>Полноценный ключ на 3 дня без ограничений. Реальный тест на вашем устройстве Huawei в ваших условиях.</p></div></div>
+          <div class="acc"><button>VPN не подключается на Huawei — что делать? <span>+</span></button><div><p>Отключите и включите снова → перезапустите приложение → переключите Wi-Fi на мобильный → убедитесь, что APK установлен с нужными разрешениями. Если не помогло — напишите в Telegram-поддержку.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section seo" id="seo-text">
+      <div class="container">
+        <h2>VPN для Huawei — что это и почему сложно найти</h2>
+        <p>После введения санкций Huawei потерял доступ к Google Play. Большинство VPN-приложений распространяются через Google Play — и на новых устройствах Huawei просто недоступны. HuaVPN решает эту проблему напрямую: приложение распространяется через APK и AppGallery, устанавливается без Google, работает стабильно.</p>
+        <h3>Как скачать VPN на Huawei</h3>
+        <p>Два способа: скачать APK-файл по прямой ссылке или найти приложение в AppGallery. После установки достаточно вставить ключ доступа — и VPN готов к работе. Весь процесс занимает 2–3 минуты.</p>
+        <h3>Какой VPN работает на Huawei в 2026 году</h3>
+        <p>Не каждый рабочий впн на хуавей реально держит скорость. HuaVPN тестировался на актуальных прошивках EMUI и HarmonyOS — соединение стабильно, скорость не падает при шифровании. Подходит для стриминга, игр и мессенджеров.</p>
+        <h3>VPN для телефона Huawei — установка и настройка</h3>
+        <p>Приложение устанавливается без сложных конфигураций. Интерфейс полностью на русском языке. Один ключ работает на смартфоне и планшете Huawei одновременно — и на Windows или Mac дополнительно.</p>
+        <h3>Цены на VPN для Huawei</h3>
+        <p>Тарифы: от 175 ₽/месяц при годовой подписке 2 100 ₽, 260 ₽/месяц квартальный 780 ₽, 349 ₽/месяц базовый. Новым пользователям доступен пробный ключ за 10 рублей на 3 дня — полноценный доступ, без ограничений.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-in">
+      <div class="logo"><i>📱</i><b>HUA<span>VPN</span></b></div>
+      <p>VPN который работает на Huawei<br>© 2026 HuaVPN. Все права защищены.</p>
+      <a class="btn" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">📲 Попробовать за 10 ₽</a>
+    </div>
+  </footer>
+
+  <div class="float-cta" id="floatCta">
+    <a class="btn" href="https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline">📲 Попробовать VPN на Huawei за 10 ₽</a>
+  </div>
+
+  <script>
+    (() => {
+      const CTA = 'https://tuvp1.ru/5Sg5nF?sub1=huaweivpnonline';
+      const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      const burger = document.getElementById('burger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      burger.addEventListener('click', () => document.body.classList.toggle('menu-open'));
+      mobileMenu.addEventListener('click', e => {
+        if (e.target.tagName === 'A') document.body.classList.remove('menu-open');
+      });
+
+      const progress = document.getElementById('progress');
+      const floatCta = document.getElementById('floatCta');
+      addEventListener('scroll', () => {
+        const max = document.documentElement.scrollHeight - innerHeight;
+        const p = max ? scrollY / max : 0;
+        progress.style.width = (p * 100) + '%';
+        floatCta.classList.toggle('show', p > .4);
+      }, { passive: true });
+
+      const ease = t => 1 - Math.pow(1 - t, 3);
+      function count(el, to, dur = 1400, decimals = 0) {
+        const start = performance.now();
+        const tick = now => {
+          const p = Math.min(1, (now - start) / dur);
+          const v = to * ease(p);
+          el.textContent = v.toLocaleString('ru-RU', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      }
+
+      const counterObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting || entry.target.dataset.done) return;
+          entry.target.dataset.done = '1';
+          count(entry.target, parseFloat(entry.target.dataset.count), 2000, parseInt(entry.target.dataset.decimals || '0', 10));
+        });
+      }, { threshold: .35 });
+      document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
+
+      const ba = document.getElementById('ba'), after = document.getElementById('after'), handle = document.getElementById('handle');
+      function setBA(x) {
+        const r = ba.getBoundingClientRect();
+        const pct = Math.max(0, Math.min(100, (x - r.left) / r.width * 100));
+        after.style.clipPath = `inset(0 0 0 ${pct}%)`;
+        handle.style.left = pct + '%';
+        handle.setAttribute('aria-valuenow', Math.round(pct));
+      }
+      let drag = false;
+      ba.addEventListener('pointerdown', e => { drag = true; ba.setPointerCapture(e.pointerId); setBA(e.clientX); });
+      ba.addEventListener('pointermove', e => { if (drag) setBA(e.clientX); });
+      ba.addEventListener('pointerup', () => drag = false);
+      handle.addEventListener('keydown', e => {
+        if (!['ArrowLeft','ArrowRight'].includes(e.key)) return;
+        e.preventDefault();
+        const now = parseFloat(handle.style.left || 50);
+        const next = Math.max(0, Math.min(100, now + (e.key === 'ArrowRight' ? 5 : -5)));
+        after.style.clipPath = `inset(0 0 0 ${next}%)`;
+        handle.style.left = next + '%';
+      });
+
+      const speedBtn = document.getElementById('speedBtn');
+      speedBtn.addEventListener('click', () => {
+        speedBtn.disabled = true;
+        speedBtn.textContent = '⏳ Тестируем сеть...';
+        document.getElementById('fastBar').style.width = '18%';
+        setTimeout(() => {
+          count(document.getElementById('fastSpeed'), 320, 1100);
+          count(document.getElementById('fastPing'), 24, 1100);
+          count(document.getElementById('lossAfter'), 0, 800);
+          document.getElementById('fastBar').style.width = '100%';
+          speedBtn.textContent = '✅ Готово — запустить ещё раз';
+          speedBtn.disabled = false;
+        }, reduced ? 0 : 3000);
+      });
+
+      const quizSteps = [
+        { q:'Как хотите установить VPN?', a:['📦 Скачать APK-файл','🏪 Через AppGallery','🤷 Неважно, лишь бы работало'] },
+        { q:'На сколько вперёд планируете?', a:['🔍 Хочу сначала проверить 3 дня','📅 На несколько месяцев','🚀 Сразу на год, если работает'] }
+      ];
+      let qs = 0;
+      const q = document.getElementById('quizQ'), opts = document.getElementById('quizOptions'), bar = document.getElementById('quizBar');
+      opts.addEventListener('click', e => {
+        if (e.target.tagName !== 'BUTTON') return;
+        if (qs >= quizSteps.length) {
+          document.getElementById('quizCard').style.display = 'none';
+          document.getElementById('quizResult').classList.add('show');
+          bar.style.width = '100%';
+          return;
+        }
+        q.textContent = quizSteps[qs].q;
+        opts.innerHTML = quizSteps[qs].a.map(x => `<button>${x}</button>`).join('');
+        qs++;
+        bar.style.width = ((qs + 1) / 3 * 100) + '%';
+      });
+
+      const map = document.getElementById('map'), tooltip = document.getElementById('tooltip');
+      document.querySelectorAll('.dot').forEach(dot => {
+        const show = () => {
+          const mr = map.getBoundingClientRect(), dr = dot.getBoundingClientRect();
+          tooltip.innerHTML = `<strong>${dot.dataset.country}</strong><p>Ping: ${dot.dataset.ping} | Нагрузка: ${dot.dataset.load}</p><a class="btn small" href="${CTA}">Подключиться →</a>`;
+          tooltip.style.left = (dr.left - mr.left + dr.width / 2) + 'px';
+          tooltip.style.top = (dr.top - mr.top) + 'px';
+          tooltip.classList.add('show');
+        };
+        dot.addEventListener('mouseenter', show);
+        dot.addEventListener('focus', show);
+        dot.addEventListener('click', show);
+      });
+      map.addEventListener('mouseleave', () => tooltip.classList.remove('show'));
+
+      document.querySelectorAll('.acc button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const item = btn.parentElement;
+          item.classList.toggle('open');
+          btn.querySelector('span').textContent = item.classList.contains('open') ? '−' : '+';
+        });
+      });
+
+      const range = document.getElementById('monthsRange'), months = document.getElementById('months'), monthlyCost = document.getElementById('monthlyCost'), yearCost = document.getElementById('yearCost'), saving = document.getElementById('saving');
+      const rub = n => Math.round(n).toLocaleString('ru-RU') + ' ₽';
+      function calc() {
+        const m = +range.value;
+        const monthly = m * 349;
+        const yearly = Math.round(2100 / 12 * m);
+        months.textContent = m;
+        monthlyCost.textContent = rub(monthly);
+        yearCost.textContent = m === 12 ? '2 100 ₽' : rub(yearly);
+        saving.textContent = '🔥 ' + rub(monthly - yearly);
+      }
+      range.addEventListener('input', calc);
+      calc();
+
+      document.querySelectorAll('[data-billing]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('[data-billing]').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          range.value = btn.dataset.billing === 'yearly' ? 12 : 3;
+          calc();
+        });
+      });
+
+      const confettiCanvas = document.getElementById('confetti'), c = confettiCanvas.getContext('2d');
+      let conf = [];
+      function resizeConfetti(){confettiCanvas.width = innerWidth * devicePixelRatio; confettiCanvas.height = innerHeight * devicePixelRatio; c.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0)}
+      resizeConfetti(); addEventListener('resize', resizeConfetti);
+      function shoot(x, y) {
+        if (reduced) return;
+        for (let i=0;i<30;i++) conf.push({x,y,vx:(Math.random()-.5)*8,vy:-Math.random()*8-2,g:.25,s:5+Math.random()*7,r:Math.random()*6.28,life:90,color:Math.random()>.5?'#cf0a2c':'#ff6b35'});
+      }
+      function drawConfetti(){
+        c.clearRect(0,0,innerWidth,innerHeight);
+        conf = conf.filter(p => p.life-- > 0);
+        conf.forEach(p => {p.x+=p.vx;p.y+=p.vy;p.vy+=p.g;p.r+=.12;c.save();c.translate(p.x,p.y);c.rotate(p.r);c.fillStyle=p.color;c.fillRect(-p.s/2,-p.s/2,p.s,p.s*.62);c.restore()});
+        requestAnimationFrame(drawConfetti);
+      }
+      drawConfetti();
+      document.querySelectorAll('.confetti-trigger').forEach(el => el.addEventListener('click', e => { const r = el.getBoundingClientRect(); shoot(r.left + r.width/2, r.top + r.height/2); }));
+
+      const cursorCanvas = document.getElementById('cursor'), cx = cursorCanvas.getContext('2d');
+      let points = [];
+      function resizeCursor(){cursorCanvas.width = innerWidth * devicePixelRatio; cursorCanvas.height = innerHeight * devicePixelRatio; cx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0)}
+      resizeCursor(); addEventListener('resize', resizeCursor);
+      if (!reduced && matchMedia('(min-width:980px)').matches) {
+        addEventListener('pointermove', e => points.push({x:e.clientX,y:e.clientY,life:24,s:3+Math.random()*4}), {passive:true});
+        (function drawTrail(){
+          cx.clearRect(0,0,innerWidth,innerHeight);
+          points = points.filter(p => p.life-- > 0);
+          points.forEach(p => {
+            const a = p.life / 24;
+            const g = cx.createRadialGradient(p.x,p.y,0,p.x,p.y,p.s*4);
+            g.addColorStop(0,`rgba(255,107,53,${a})`);
+            g.addColorStop(1,'rgba(207,10,44,0)');
+            cx.fillStyle = g; cx.beginPath(); cx.arc(p.x,p.y,p.s*4,0,Math.PI*2); cx.fill();
+          });
+          requestAnimationFrame(drawTrail);
+        })();
+      }
+    })();
+  </script>
+</body>
+</html>
